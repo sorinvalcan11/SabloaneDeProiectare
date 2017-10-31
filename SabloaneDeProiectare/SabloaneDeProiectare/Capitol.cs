@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab1
 {
-    class Capitol : IElement
+    class Capitol : AbstractElement
     {
         string titlu;
 
@@ -15,22 +15,7 @@ namespace Lab1
 
         }
 
-        public void Add(IElement newElement)
-        {
-            throw new InvalidOperationException();
-        }
-
-        public void Remove(IElement element)
-        {
-            throw new InvalidOperationException();
-        }
-
-        public IElement GetElement(int index)
-        {
-            throw new InvalidOperationException();
-        }
-
-        public string Print()
+        public override string Print()
         {
             return titlu;
         }
