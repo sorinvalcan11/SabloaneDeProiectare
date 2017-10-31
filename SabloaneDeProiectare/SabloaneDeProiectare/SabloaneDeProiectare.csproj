@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractElement.cs" />
     <Compile Include="Autor.cs" />
     <Compile Include="Capitol.cs" />
     <Compile Include="Carte.cs" />
