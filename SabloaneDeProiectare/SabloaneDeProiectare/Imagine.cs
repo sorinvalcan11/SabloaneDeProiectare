@@ -6,33 +6,25 @@ using System.Threading.Tasks;
 
 namespace Lab1
 {
-    class Imagine : IElement
+    class Imagine : AbstractElement
     {
-        private string nume;
+        private string fileName;
+        private string imageData;
 
-        public Imagine()
+        public Imagine(string fName)
         {
-
+            fileName = fName;
+            imageData = LoadImage(fileName);
         }
 
-        public void Add(IElement newElement)
+        private string LoadImage(string path)
         {
-            throw new InvalidOperationException();
+            return "Image data";
         }
 
-        public void Remove(IElement element)
+        public override string Print()
         {
-            throw new InvalidOperationException();
-        }
-
-        public IElement GetElement(int index)
-        {
-            throw new InvalidOperationException();
-        }
-
-        public string Print()
-        {
-            return "Numele imaginii este: " + nume;
+            return "Numele imaginii este: " + fileName;
         }
     }
 }
