@@ -57,6 +57,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="IElement.cs" />
+    <Compile Include="ImageProxy.cs" />
     <Compile Include="Imagine.cs" />
     <Compile Include="Paragraf.cs" />
     <Compile Include="Program.cs" />
