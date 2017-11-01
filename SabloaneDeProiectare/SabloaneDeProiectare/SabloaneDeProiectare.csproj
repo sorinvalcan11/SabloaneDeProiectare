@@ -46,6 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractElement.cs" />
+    <Compile Include="AlignCenter.cs" />
+    <Compile Include="AlignLeft.cs" />
+    <Compile Include="AlignRight.cs" />
+    <Compile Include="AlignStrategy.cs" />
     <Compile Include="Autor.cs" />
     <Compile Include="Capitol.cs" />
     <Compile Include="Carte.cs" />
