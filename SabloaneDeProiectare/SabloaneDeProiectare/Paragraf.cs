@@ -10,6 +10,8 @@ namespace Lab1
     {
         string text;
 
+        private SabloaneDeProiectare.AlignStrategy alignAlgorithm = null;
+
         public Paragraf()
         {
 
@@ -17,6 +19,9 @@ namespace Lab1
 
         public override string Print()
         {
+            if (alignAlgorithm != null)
+                return alignAlgorithm.PrintAligned();
+
             return text;
         }
     }
