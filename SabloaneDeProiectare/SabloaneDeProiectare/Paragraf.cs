@@ -13,14 +13,14 @@ namespace SabloaneDeProiectare
 
         private SabloaneDeProiectare.AlignStrategy alignAlgorithm = null;
 
-        public Paragraf()
+        public Paragraf(string text)
         {
-
+            this.text = text;
         }
 
         internal AlignStrategy AlignAlgorithm { get => alignAlgorithm; set => alignAlgorithm = value; }
 
-        public override void accept(Visitor v)
+        public override void accept(Visitors.Visitor v)
         {
             v.visitParagraf(this);
         }

@@ -11,7 +11,7 @@ namespace SabloaneDeProiectare
         void Add(IElement newElement);
         void Remove(IElement element);
         IElement GetElement(int index);
-        void accept(Visitor v);
+        void accept(Visitors.Visitor v);
         string Print();
     }
 }

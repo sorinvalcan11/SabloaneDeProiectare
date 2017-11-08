@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SabloaneDeProiectare
+namespace SabloaneDeProiectare.Visitors
 {
     public interface Visitor
     {

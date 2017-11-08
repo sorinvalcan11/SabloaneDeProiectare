@@ -15,7 +15,7 @@ namespace SabloaneDeProiectare
 
         }
 
-        public override void accept(Visitor v)
+        public override void accept(Visitors.Visitor v)
         {
             throw new NotImplementedException();
         }

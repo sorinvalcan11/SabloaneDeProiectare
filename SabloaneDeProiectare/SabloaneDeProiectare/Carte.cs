@@ -15,8 +15,20 @@ namespace SabloaneDeProiectare
 
         public Carte()
         {
-
+            continut = new List<IElement>();
         }
-        
+
+        public void Add(IElement element)
+        {
+            continut.Add(element);
+        }
+
+        public void accept(Visitors.Visitor v)
+        {
+            foreach(IElement element in continut)
+            {
+                element.accept(v);
+            }
+        }
     }
 }

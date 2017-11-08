@@ -16,7 +16,7 @@ namespace SabloaneDeProiectare
             fileName = fName;
         }
 
-        public override void accept(Visitor v)
+        public override void accept(Visitors.Visitor v)
         {
             v.visitImageProxy(this);
         }

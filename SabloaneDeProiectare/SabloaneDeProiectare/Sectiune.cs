@@ -33,7 +33,7 @@ namespace SabloaneDeProiectare
             return Elemente[index];
         }
 
-        public void accept(Visitor v)
+        public void accept(Visitors.Visitor v)
         {
             foreach (AbstractElement elem in elemente)
                 elem.accept(v);

@@ -27,7 +27,7 @@ namespace SabloaneDeProiectare
             return "Numele imaginii este: " + fileName;
         }
 
-        public override void accept(Visitor v)
+        public override void accept(Visitors.Visitor v)
         {
             v.visitImage(this);
         }

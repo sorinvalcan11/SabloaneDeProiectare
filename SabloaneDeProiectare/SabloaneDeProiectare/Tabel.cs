@@ -10,12 +10,12 @@ namespace SabloaneDeProiectare
     {
         string nume;
 
-        public Tabel()
+        public Tabel(string nume)
         {
-
+            this.nume = nume;
         }
 
-        public override void accept(Visitor v)
+        public override void accept(Visitors.Visitor v)
         {
             v.visitTabel(this);
         }

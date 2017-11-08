@@ -24,6 +24,6 @@ namespace SabloaneDeProiectare
         }
 
         public abstract string Print();
-        public abstract void accept(Visitor v);
+        public abstract void accept(Visitors.Visitor v);
     }
 }
