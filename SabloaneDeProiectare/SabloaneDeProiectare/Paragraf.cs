@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SabloaneDeProiectare;
 
-namespace Lab1
+namespace SabloaneDeProiectare
 {
-    class Paragraf : AbstractElement
+    public class Paragraf : AbstractElement
     {
         string text;
 
@@ -15,6 +16,13 @@ namespace Lab1
         public Paragraf()
         {
 
+        }
+
+        internal AlignStrategy AlignAlgorithm { get => alignAlgorithm; set => alignAlgorithm = value; }
+
+        public override void accept(Visitor v)
+        {
+            v.visitParagraf(this);
         }
 
         public override string Print()

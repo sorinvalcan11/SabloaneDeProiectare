@@ -1,0 +1,9 @@
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\obj\Debug\SabloaneDeProiectare.Form1.resources
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\obj\Debug\SabloaneDeProiectare.Properties.Resources.resources
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\obj\Debug\SabloaneDeProiectare.csproj.GenerateResource.Cache
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\obj\Debug\SabloaneDeProiectare.csproj.CoreCompileInputs.cache
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\bin\Debug\SabloaneDeProiectare.exe.config
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\bin\Debug\SabloaneDeProiectare.exe
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\bin\Debug\SabloaneDeProiectare.pdb
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\obj\Debug\SabloaneDeProiectare.exe
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\obj\Debug\SabloaneDeProiectare.pdb

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1
+namespace SabloaneDeProiectare
 {
-    class ImageProxy : AbstractElement
+    public class ImageProxy : AbstractElement
     {
         private string fileName;
         private Imagine realImage = null;
@@ -14,6 +14,11 @@ namespace Lab1
         public ImageProxy(string fName)
         {
             fileName = fName;
+        }
+
+        public override void accept(Visitor v)
+        {
+            v.visitImageProxy(this);
         }
 
         public override string Print()

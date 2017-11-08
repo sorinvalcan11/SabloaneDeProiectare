@@ -21,5 +21,10 @@ namespace SabloaneDeProiectare
         {
 
         }
+
+        private void documentStatVisitorButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

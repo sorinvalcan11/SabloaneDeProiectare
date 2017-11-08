@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1
+namespace SabloaneDeProiectare
 {
-    class Cuprins
+    public class Cuprins
     {
         public Cuprins()
         {

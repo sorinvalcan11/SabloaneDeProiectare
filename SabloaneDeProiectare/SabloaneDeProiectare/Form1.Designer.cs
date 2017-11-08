@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.documentStatVisitorButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // documentStatVisitorButton
+            // 
+            this.documentStatVisitorButton.Location = new System.Drawing.Point(11, 37);
+            this.documentStatVisitorButton.Name = "documentStatVisitorButton";
+            this.documentStatVisitorButton.Size = new System.Drawing.Size(192, 35);
+            this.documentStatVisitorButton.TabIndex = 0;
+            this.documentStatVisitorButton.Text = "Document Stat Visitor";
+            this.documentStatVisitorButton.UseVisualStyleBackColor = true;
+            this.documentStatVisitorButton.Click += new System.EventHandler(this.documentStatVisitorButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(614, 355);
+            this.Controls.Add(this.documentStatVisitorButton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -43,6 +55,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button documentStatVisitorButton;
     }
 }
 

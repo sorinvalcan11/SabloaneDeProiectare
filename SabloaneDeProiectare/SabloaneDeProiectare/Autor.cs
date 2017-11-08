@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lab1
+namespace SabloaneDeProiectare
 {
-    class Autor
+    public class Autor
     {
         string nume;
 

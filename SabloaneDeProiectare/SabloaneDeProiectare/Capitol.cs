@@ -4,15 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1
+namespace SabloaneDeProiectare
 {
-    class Capitol : AbstractElement
+    public class Capitol : AbstractElement
     {
         string titlu;
 
         public Capitol()
         {
 
+        }
+
+        public override void accept(Visitor v)
+        {
+            throw new NotImplementedException();
         }
 
         public override string Print()

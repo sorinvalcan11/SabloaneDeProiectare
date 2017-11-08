@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1
+namespace SabloaneDeProiectare
 {
-    abstract class AbstractElement : IElement
+    public abstract class AbstractElement : IElement
     {
         public void Add(IElement newElement)
         {
@@ -24,6 +24,6 @@ namespace Lab1
         }
 
         public abstract string Print();
-
+        public abstract void accept(Visitor v);
     }
 }

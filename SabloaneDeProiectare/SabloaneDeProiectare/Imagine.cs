@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1
+namespace SabloaneDeProiectare
 {
-    class Imagine : AbstractElement
+    public class Imagine : AbstractElement
     {
         private string fileName;
         private string imageData;
@@ -25,6 +25,11 @@ namespace Lab1
         public override string Print()
         {
             return "Numele imaginii este: " + fileName;
+        }
+
+        public override void accept(Visitor v)
+        {
+            v.visitImage(this);
         }
     }
 }

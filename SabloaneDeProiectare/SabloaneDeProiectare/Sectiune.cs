@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1
+namespace SabloaneDeProiectare
 {
-    class Sectiune : IElement
+    public class Sectiune : IElement
     {
         string titlu;
         List<IElement> elemente = new List<IElement>();
+
+        public List<IElement> Elemente { get => elemente; set => elemente = value; }
 
         public Sectiune()
         {
@@ -18,24 +20,30 @@ namespace Lab1
 
         public void Add(IElement newElement)
         {
-            elemente.Add(newElement);
+            Elemente.Add(newElement);
         }
 
         public void Remove(IElement element)
         {
-            elemente.Remove(element);
+            Elemente.Remove(element);
         }
 
         public IElement GetElement(int index)
         {
-            return elemente[index];
+            return Elemente[index];
+        }
+
+        public void accept(Visitor v)
+        {
+            foreach (AbstractElement elem in elemente)
+                elem.accept(v);
         }
 
         public string Print()
         {
             string textToPrint = titlu;
 
-            foreach (IElement element in elemente)
+            foreach (IElement element in Elemente)
                 textToPrint +=element.Print();
 
             return textToPrint;
