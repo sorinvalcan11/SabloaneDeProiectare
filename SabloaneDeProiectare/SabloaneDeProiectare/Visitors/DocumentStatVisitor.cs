@@ -38,7 +38,8 @@ namespace SabloaneDeProiectare.Visitors
 
         public void visitSectiune(Sectiune sectiune)
         {
-            sectiune.accept(this);
+            foreach (IElement elem in sectiune.Elemente)
+                elem.accept(this);
         }
 
         public void visitTabel(Tabel tabel)
