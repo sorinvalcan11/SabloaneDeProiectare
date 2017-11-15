@@ -35,8 +35,8 @@ namespace SabloaneDeProiectare
 
         public void accept(Visitors.Visitor v)
         {
-            foreach (AbstractElement elem in elemente)
-                elem.accept(v);
+            v.visitSectiune(this);
+            
         }
 
         public string Print()

@@ -50,6 +50,8 @@ namespace SabloaneDeProiectare
             book.accept(saveXml);
 
             saveXml.SaveFile("D:\\book.xml");
+
+            MessageBox.Show("Save done!");
         }
     }
 }

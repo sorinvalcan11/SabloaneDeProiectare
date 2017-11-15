@@ -35,9 +35,10 @@ namespace SabloaneDeProiectare.Visitors
         {
             xmlString += "<Sectiune>\n";
 
-            sectiune.accept(this);
+            foreach (AbstractElement elem in sectiune.Elemente)
+                elem.accept(this);
 
-            xmlString += "\n</Sectiune>\n";
+            xmlString += "</Sectiune>\n";
         }
 
         public void visitTabel(Tabel tabel)
