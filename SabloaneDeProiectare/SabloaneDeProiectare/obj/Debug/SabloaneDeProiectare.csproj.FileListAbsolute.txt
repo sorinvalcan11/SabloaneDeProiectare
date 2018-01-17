@@ -7,4 +7,5 @@ D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiect
 D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\bin\Debug\SabloaneDeProiectare.pdb
 D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\obj\Debug\SabloaneDeProiectare.exe
 D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\obj\Debug\SabloaneDeProiectare.pdb
-D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\obj\Debug\SabloaneDeProiectare.csprojResolveAssemblyReference.cache
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\bin\Debug\Newtonsoft.Json.dll
+D:\Faculta\03_An III semestrul 1\Sabloane de proiectare\GitRep\SabloaneDeProiectare\SabloaneDeProiectare\bin\Debug\Newtonsoft.Json.xml

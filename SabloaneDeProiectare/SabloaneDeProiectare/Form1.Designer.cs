@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.documentStatVisitorButton = new System.Windows.Forms.Button();
+            this.jsonBuilderButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // documentStatVisitorButton
@@ -41,11 +42,22 @@
             this.documentStatVisitorButton.UseVisualStyleBackColor = true;
             this.documentStatVisitorButton.Click += new System.EventHandler(this.documentStatVisitorButton_Click);
             // 
+            // jsonBuilderButton
+            // 
+            this.jsonBuilderButton.Location = new System.Drawing.Point(11, 95);
+            this.jsonBuilderButton.Name = "jsonBuilderButton";
+            this.jsonBuilderButton.Size = new System.Drawing.Size(191, 35);
+            this.jsonBuilderButton.TabIndex = 1;
+            this.jsonBuilderButton.Text = "Build JSON";
+            this.jsonBuilderButton.UseVisualStyleBackColor = true;
+            this.jsonBuilderButton.Click += new System.EventHandler(this.jsonBuilderButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(614, 355);
+            this.Controls.Add(this.jsonBuilderButton);
             this.Controls.Add(this.documentStatVisitorButton);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +69,7 @@
         #endregion
 
         private System.Windows.Forms.Button documentStatVisitorButton;
+        private System.Windows.Forms.Button jsonBuilderButton;
     }
 }
 

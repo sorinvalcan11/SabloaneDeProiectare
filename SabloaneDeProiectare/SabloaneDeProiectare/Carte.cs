@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SabloaneDeProiectare
 {
-    class Carte
+    public class Carte
     {
         string titlu;
         List<Autor> autori;
@@ -29,6 +29,11 @@ namespace SabloaneDeProiectare
             {
                 element.accept(v);
             }
+        }
+
+        public void Clear()
+        {
+            continut.Clear();
         }
     }
 }

@@ -53,5 +53,12 @@ namespace SabloaneDeProiectare
 
             MessageBox.Show("Save done!");
         }
+
+        private void jsonBuilderButton_Click(object sender, EventArgs e)
+        {
+            Builders.JsonBuilder bld = new Builders.JsonBuilder("D:\\book.json");
+
+            bld.Build();
+        }
     }
 }
