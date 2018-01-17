@@ -30,7 +30,9 @@ namespace SabloaneDeProiectare.Builders
 
         public Carte GetResult()
         {
-            throw new NotImplementedException();
+            Build();
+
+            return book;
         }
     }
 }
